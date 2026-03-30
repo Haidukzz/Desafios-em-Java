@@ -16,7 +16,7 @@ public class Desafio2 {
             if (numeroDigitado == numeroGerado) {
                 System.out.println("Parabéns, você acertou o número em " + tentativas + " tentativas!");
                 break; // interrompe o loop while
-            } else if (numeroDigitado > numeroGerado) {
+            } else if (numeroDigitado >1 numeroGerado) {
                 System.out.println("O número digitado é menor que o número gerado.");
             } else {
                 System.out.println("O número digitado é maior que o número gerado.");
